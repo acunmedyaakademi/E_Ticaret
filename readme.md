@@ -1,2 +1,0 @@
-# selam
-# ilk grup ödevi
