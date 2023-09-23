@@ -1,0 +1,38 @@
+.button{
+    color: black;
+    text-shadow: none;
+    display: inline-block;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 1px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    text-decoration: none;
+    border-radius: 8%;
+}
+.admin {
+    color: black;
+    text-shadow: none;
+    display: inline-block;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 1px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    text-decoration: none;
+    border-radius: 8%;
+}
+.admin:hover{
+    background-color: red;
+    color:white;
+}
