@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PANELİ</title>
+    <script src="assets/site.js" defer></script>
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <button onclick="addProduct()">Ürün Ekle</button>
+    <button onclick="clearList()">Listeyi Temizle</button>
+</head>
+<body>
+    <a href="index.html" class="button">Anasayfaya git</a>
+    <table id="product-table" border="1" style="width:50%"><br><br>
+        <thead>
+            <tr>
+                <th>Resim</th>
+                <th>Ürün Adı</th>
+                <th>Fiyatı</th>
+                <th>Kategorisi</th>
+                <th>Stok</th>
+                <th>Sepete Ekle</th>
+            </tr>
+        </thead>
+        <tbody id="product-list"></tbody>
+    </table>
+    
+</body>
+</html>
